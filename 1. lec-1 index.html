@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            font-size: xx-large;
+        }
+        p{
+            text-align: center;
+            font-size: 50px sans-sarif;
+            background: teal;
+
+        }
+    </style>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+  </head>
+  <body>
+    <!-- <div class="heading">
+      <h1>This is Jquery</h1>
+    </div> -->
+
+    <!-- <div id="head">
+      <h1>This is Jquery</h1>
+      <p>jQuery is a fast, small, and feature-rich JavaScript library.</p>
+      <p>jQuery is a fast, small, and feature-rich JavaScript library.</p>
+      <p>jQuery is a fast, small, and feature-rich JavaScript library.</p>
+    </div> -->
+
+    <!-- <div class="paragraph"> -->
+        <!-- <p>It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an 
+            easy-to-use API that works across a multitude of browsers.</p> -->
+            <p>
+                this is paragraph1
+            </p>
+            <button type="submit" id="btn">Hide</button>
+    <!-- </div> -->
+    <script>
+        // Jquery Selectors //
+        // class
+        // id
+        // Element
+        // Universal
+      
+        // $("selectors").function //
+        // $(document).ready(function(){
+        //     alert("Hello Jquery");
+        // })
+      
+        // Element selector //
+        //  $("h1").css("color","red");
+      
+        // class selector //
+      //   $(".heading").css("color", "blue");
+      
+        // id selector //
+      //   $(head).css("color", "green");
+      //   $("p").hide();
+          // jQuery("p").css("color","coral");
+      
+          // $(".paragraph").hide();
+      
+    //   $(document).ready(function(){
+    //     $('p').css("background", "red");
+
+    //   });
+
+    // $('#btn').click(function(){
+    //     $('p').hide();
+
+    // });
+
+    $('#btn').click(function(){
+        $('p').slideUp();
+
+    });
+      
+          
+      </script>
+  </body>
+</html>
